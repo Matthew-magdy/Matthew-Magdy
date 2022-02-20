@@ -1,0 +1,348 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+
+/* tagheez al basics wi al astriks di ya3ni select all elements
+..defulet em 1em = 16px ana a2dar a8iarha fi al2wl time 18:41..
+..vh view port means what im seeing right now..
+..display in line blok to convert inline element into block..
+
+
+*/
+
+header {
+    background-color: white;
+    width: 100%;
+    position: fixed;
+    z-index: 99;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.3vh 10vh;
+    max-height: 20vh;
+
+}
+
+.logo {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 5vh;
+}
+
+.navigation a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 2.5vh;
+    font-weight: 500;
+    padding-left: 6vh;
+    transition: 0.4s ease;
+}
+
+.navigatin a:hover {
+    color: green;
+    font-size: 3vh;
+    font-weight: 600;
+}
+
+
+
+section{
+    padding: 10vh 20vh;
+    min-height: 100vh;
+}
+
+
+
+.pp-card{
+    width: 50vh;
+    overflow: hidden;
+    border-radius:  20vh;
+    margin-left: 15vh; 
+}
+
+
+.pp-image img{
+    width: 100%;
+    height: 111%;
+    border-radius:50vh;
+}
+
+
+
+.main{
+    width: 100%;
+    min-height: 100vh;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    background: url(2.jpg);
+    background-size:cover;
+    background-position:center;
+    background-attachment: fixed;
+    position: relative;
+
+
+}
+
+
+.main h2{
+    color:white;
+    font-size: 3vh;
+    font-weight: 500;
+}
+
+
+.main h2 span{
+    display: inline-block;
+    margin-top: 10px;
+    color: green;
+    font-size: 2em;
+    font-weight: 600;
+}
+
+
+.main h3{
+    color: white;
+    font-size: 1.8em;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+
+.main-btn{
+    color: white;
+    background-color: green;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.93em 2.18em;
+    letter-spacing: 1px;
+    border-radius: 20px;
+    margin-bottom: 40px;
+    transition: 0.7s ease;
+}
+
+
+.main-btn:hover{
+    color: black;
+    background-color: rgba(0, 128, 0, 0.735);
+    transform: scale(0.9);
+}
+
+
+.social-icons a{
+    color: white;
+    font-size: 1.7em;
+    padding-right: 30px;
+}
+
+
+.title{
+    display: flex;
+    justify-content: center;
+    color: green;
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 30px;
+
+}
+
+
+.cards{
+    background-color: rgba(92, 87, 87, 0.155);
+    /* background-image:url(PH/1.jpg); */
+
+
+
+}
+
+
+.n-cards{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+.card{
+    background-color: white;
+    width: 21.25em;
+    box-shadow: 0 5px 20px rgba(0, 128, 0, 0.318);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+    transition: 0.7s ease;
+}
+
+
+.card:hover{
+    transform: scale(1.1);
+    //color: green;
+}
+
+
+.icon{
+    color:green;
+    font-size: 8em;
+    text-align: center;
+}
+
+
+.info{
+    text-align: center;
+}
+
+
+.info h3{
+    color:green;
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 10px;
+}
+
+
+.projects{
+    background: url(2.jpg);
+    background-size:cover;
+    background-position:center;
+    background-attachment: fixed;
+    background-color: black;
+}
+
+
+.projects.n-cards{
+    margin-top: 30px;
+}
+
+
+.p-card{
+    position: relative;
+    background-color: white;
+    border: 1px solid white;
+    min-height: 14em;
+    width: 23em;
+    overflow: hidden;
+    border-radius: 20px;
+    margin: 20px;
+    transition: 0.7s ease;
+    
+}
+
+.nt-ready{
+    position: absolute;
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    font-size: larger;
+    background-color: rgba(0, 0, 0, 0.539);
+    color: rgb(255, 255, 255);
+    padding:10vh 0%;
+    border-radius: 20px;
+}
+
+
+.p-card:hover{
+    transform: scale(1.1);
+}
+
+
+.p-image img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+
+.p-card:hover .p-image{
+    opacity: 0.96;
+}
+
+
+.p-info{
+    padding: 1em;
+}
+
+
+.p-category{
+    font-size: 0.8em;
+    color: black;
+}
+
+.p-title{
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 10px;
+}
+
+
+.view{
+    text-decoration: none;
+    color: green;
+    transition: 0.5s ease;
+}
+
+
+.view:hover{
+    font-size: 1.3em;
+    color: rgba(0, 128, 0, 0.372);
+}
+
+
+.cards-c .info p{
+    font-size:x-large;
+}
+
+
+.cards-c .card{
+    border-radius: 30px;
+}
+
+
+.cards-c .card .icon{
+    font-size: 4em;
+}
+
+
+.cards-c{
+    background-color: rgba(92, 87, 87, 0.155);
+}
+
+
+.footer{
+    background: url(2.jpg);
+    background-size:cover;
+    background-position:center;
+    background-attachment: fixed;
+    color: white;
+    padding: 1.6em;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.footer-t{
+    font-size: 1.3em;
+    font-weight: 600;
+}
+.footer-t span{
+    color: green;
+}
+
+
+.footer.social-icons{
+    font-size: 0.5em;
+}
