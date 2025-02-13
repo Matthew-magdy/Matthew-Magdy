@@ -4,7 +4,7 @@
 ## 🚀 About Me
 Welcome to my coding playground! I'm on an endless quest to unravel the mysteries of tech. I thrive on challenges, fueled by my passion for backend wizardry and problem-solving prowess.
 
-## 🌍 Languages of Expression
+## 🌍 Languages
 
 - **English**: Fluent in the language of global communication and collaboration.
 - **Italian**: Embracing the language of art, culture, and delicious cuisine.
