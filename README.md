@@ -9,7 +9,7 @@ Welcome to my coding playground! I'm on an endless quest to unravel the mysterie
 - **English**: Fluent in the language of global communication and collaboration.
 - **Italian**: Embracing the language of art, culture, and delicious cuisine.
 
-## 💻 Tech Stacks and Superpowers
+## 💻 Tech
 
 <p align="center">
     <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++">
